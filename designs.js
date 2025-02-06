@@ -48,3 +48,16 @@ save.addEventListener("click", function (evt) {
         document.body.appendChild(canvas)
     });
 });
+
+// Toggle Code For Click:
+
+// toggle.addEventListener("click", function () {
+//     var elementsTd = document.getElementsByTagName("td");
+//     var elementsTr = document.getElementsByTagName("tr");
+//     for (var i = 0; i < elementsTd.length; ++i) {
+//         elementsTd[i].classList.toggle("off");
+//     }
+//     for (var j = 0; j < elementsTr.length; ++j) {
+//         elementsTr[j].classList.toggle("off");
+//     }
+// });
